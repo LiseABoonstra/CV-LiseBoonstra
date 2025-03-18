@@ -5,10 +5,30 @@
 
 /* Styles for the body */
 
+@font-face {
+    font-family: "Coast";
+    src: url("fonts/Coast.woff2") format("woff2"),
+         url("fonts/Coast.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Futura PT";
+    src: url("fonts/FuturaPT.woff2") format("woff2"),
+         url("fonts/FuturaPT.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	font-family: Lato, "coast", Roboto, 'coast'"Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #432918;
-	background-color: #f8f8fc;
+    font-family: "Futura PT", sans-serif;
+    color: #432918;
+    background-color: #f8f8fc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Coast", serif;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
@@ -62,5 +82,6 @@ body {
     border: 4px solid #ff00dd; /* Change to your desired border color */
     border-color: #432918 !important;
     border-radius: 0px; /* Optional: Add rounded corners */
+	
 }
  
