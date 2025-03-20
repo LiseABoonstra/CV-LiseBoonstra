@@ -27,14 +27,14 @@ body {
     background-color: #f8f8fc;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4{
     font-family: "Coast", serif;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #cdae9a;
+    background-color: #c6a68f;
 }
 
 .resume-main {
@@ -75,13 +75,27 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #f4efeb !important; /* Change to your desired color */
 }
  
-.language-level  {
-    background-color: #dcc5b2 !important; /* Change to your desired color */
-}
 .language-level {
-    border: 4px solid #ff00dd; /* Change to your desired border color */
-    border-color: #432918 !important;
-    border-radius: 0px; /* Optional: Add rounded corners */
-	
+    background-color: #dcc5b2 !important; /* Change to your desired color */
+    border: 4px solid #432918 !important; /* Ensures border color applies */
+    border-radius: 15px; /* Adjust this value for more/less rounding */
 }
- 
+
+.language-level .language-progress {
+    background-color: #f4efeb !important; /* Change to your desired color */
+    border-radius: 15px; /* Ensures inner progress bar also has rounded edges */
+}
+.contact-list a {
+    color: #432918; /* Set text color */
+    text-decoration: none; /* Removes underline (optional) */
+}
+
+.contact-list a:hover {
+    color: #6a3d20; /* Slightly lighter shade for hover effect */
+}
+.rounded-img {
+    border-radius: 10% !important; /* Forces the circular shape */
+    width: 140px !important; /* Ensure correct size */
+    height: 150px !important; /* Ensure it's square */
+    object-fit: cover !important; /* Prevents stretching */
+}
